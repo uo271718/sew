@@ -1,14 +1,9 @@
 /* 0 0 1 */
 body {
-    font: 400 15px Tahoma; /*Familia sans-serif*/
-    line-height: 1.8;
+    font-family:Tahoma, sans-serif;
     color: #818181;
+    background-color: white;
     margin: auto 5% auto;
-}
-
-/* 0 0 1 */
-nav {
-    color: rgb(5, 184, 100);
 }
 
 /* 0 0 2 */
@@ -16,7 +11,7 @@ nav table {
     margin: auto;
     table-layout: fixed;
     width: 80%;
-    color:rgb(1, 107, 58);
+    color:rgb(114, 73, 27); 
     background-color: white;
 }
 
@@ -32,16 +27,18 @@ h1 {
 /* 0 0 1 */
 h2 {
     color: rgb(1, 107, 58);
+    background-color: white;
 }
 
 /* 0 0 1 */
 h3 {
     color: black;
+    background-color: white;
 }
 
 /* 0 0 1 */
 p {
-    font: 400 15px Arial;
+    font-family: Arial, sans-serif;
 }
 
 /* 0 0 1 */
@@ -78,11 +75,13 @@ footer {
 
 /* 0 1 0 */
 .nominacion {
+    color: black;
     background-color: #f5cccc;
 }
 
 /* 0 1 0 */
 .ganador {
+    color: black;
     background-color: #7bfd7b;
 }
 
